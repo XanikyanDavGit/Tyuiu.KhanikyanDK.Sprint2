@@ -4,7 +4,7 @@ namespace Tyuiu.KhanikyanDK.Sprint2.Task0.V18
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) 
         {
             Console.Title = "Спринт #2 | Выполнил: Ханикян Д. К. | ИСТНб-25-1";
             Console.WriteLine("***************************************************************************");

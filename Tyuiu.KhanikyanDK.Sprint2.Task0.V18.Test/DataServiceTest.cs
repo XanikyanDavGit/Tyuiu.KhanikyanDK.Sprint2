@@ -1,6 +1,6 @@
 ﻿using Tyuiu.KhanikyanDK.Sprint2.Task0.V18.Lib;
 namespace Tyuiu.KhanikyanDK.Sprint2.Task0.V18.Test
-{
+{ 
     [TestClass]
     public sealed class DataServiceTest
     {
