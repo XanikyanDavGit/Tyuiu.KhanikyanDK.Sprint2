@@ -14,7 +14,7 @@ namespace Tyuiu.KhanikyanDK.Sprint2.Task4.V25
             Console.WriteLine("* Выполнил: Ханикян Давит Каренович | ИСТНб-25-1                          *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать код с тренарным оператором                                     *");
+            Console.WriteLine("* Написать код с тернарным оператором                                     *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
