@@ -17,6 +17,8 @@ namespace Tyuiu.KhanikyanDK.Sprint2.Task5.V10.Lib
                 case 8:
                 case 9:
                 case 10:
+                    res = $"0{n - 1}.{m}.{g}";
+                    break;
                 case 11:
                 case 12:
                 case 13:
