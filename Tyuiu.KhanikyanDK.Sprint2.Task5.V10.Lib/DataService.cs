@@ -38,10 +38,10 @@ namespace Tyuiu.KhanikyanDK.Sprint2.Task5.V10.Lib
                 case 29:
                 case 30:
                 case 31:
-                    res = $"{g}/{m}/{n-1}";
+                    res = $"{n-1}.{m}.{g}";
                     break;
                 case 1:
-                    res = $"{g}/{m-1}/31";
+                    res = $"31.{m-1}.{g}";
                     break;
                 default:
                     res = "n должен быть от 1 до 31";
