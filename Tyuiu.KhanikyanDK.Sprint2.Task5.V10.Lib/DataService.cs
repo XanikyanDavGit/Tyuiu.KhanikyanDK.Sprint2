@@ -17,8 +17,6 @@ namespace Tyuiu.KhanikyanDK.Sprint2.Task5.V10.Lib
                 case 8:
                 case 9:
                 case 10:
-                    res = $"0{n - 1}.{m}.{g}";
-                    break;
                 case 11:
                 case 12:
                 case 13:
@@ -40,15 +38,36 @@ namespace Tyuiu.KhanikyanDK.Sprint2.Task5.V10.Lib
                 case 29:
                 case 30:
                 case 31:
-                    res = $"{n-1}.{m}.{g}";
+                    n -= 1;
                     break;
                 case 1:
-                    res = $"31.{m-1}.{g}";
+                    m -= 1;
                     break;
                 default:
                     res = "n должен быть от 1 до 31";
                     break;
             }
+            string den = "";
+            string mes = "";
+
+
+            if (n < 10)
+            {
+                den = "0" + n;
+            }
+            if (m < 10)
+            {
+                mes = "0" + m;
+            }
+
+
+            if (n == 1)
+            {
+                den = "31";
+            }
+            res = $"{den}.{mes}.{g}";
+
+
             return res;
         }
     }
