@@ -1,5 +1,5 @@
-﻿using Tyuiu.KhanikyanDK.Sprint2.Task5.V10.Lib;
-namespace Tyuiu.KhanikyanDK.Sprint2.Task5.V10
+﻿using Tyuiu.KhanikyanDK.Sprint2.Task6.V12.Lib;
+namespace Tyuiu.KhanikyanDK.Sprint2.Task6.V12
 {
     class Program
     {
@@ -9,14 +9,14 @@ namespace Tyuiu.KhanikyanDK.Sprint2.Task5.V10
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #2                                                               *");
             Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
-            Console.WriteLine("* Задание #5                                                              *");
-            Console.WriteLine("* Вариант #10                                                             *");
+            Console.WriteLine("* Задание #6                                                              *");
+            Console.WriteLine("* Вариант #12                                                             *");
             Console.WriteLine("* Выполнил: Ханикян Давит Каренович | ИСТНб-25-1                          *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Дата некоторого дня характеризуется тремя натуральными числами: g (год) *");
             Console.WriteLine("* m (порядковый номер месяца) и n (число) По заданным g, n и m определить *");
-            Console.WriteLine("* дату предыдущего дня. Заданный год не является високосным.              *");
+            Console.WriteLine("* дату предыдущего дня. Заданный год является високосным.                 *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");

@@ -1,5 +1,5 @@
-﻿using Tyuiu.KhanikyanDK.Sprint2.Task5.V10.Lib;
-namespace Tyuiu.KhanikyanDK.Sprint2.Task5.V10.Test
+﻿using Tyuiu.KhanikyanDK.Sprint2.Task6.V12.Lib;
+namespace Tyuiu.KhanikyanDK.Sprint2.Task6.V12.Test
 {
     [TestClass]
     public sealed class DataServiceTest
