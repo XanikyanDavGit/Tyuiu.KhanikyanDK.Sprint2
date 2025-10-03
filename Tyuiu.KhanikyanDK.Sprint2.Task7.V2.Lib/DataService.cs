@@ -5,16 +5,7 @@ namespace Tyuiu.KhanikyanDK.Sprint2.Task7.V2.Lib
     {
         public bool CheckDotInShadedArea(double x, double y)
         {
-            bool res;
-            if (Math.Pow(x, 2) + Math.Pow(y, 2) <= 1 && y < x / 2)
-            {
-                res = true;
-            }
-            else
-            {
-                res = false;
-            }
-            return res;
+            return Math.Pow(x, 2) + Math.Pow(y, 2) <= 1 && y < x / 2;
         }
     }
 }
